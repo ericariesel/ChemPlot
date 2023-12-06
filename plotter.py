@@ -265,5 +265,5 @@ for file in file_list:
 plotter(x_list, y_list, "", r"2$\theta$ (" + chr(176) + ")", "Intensity", "main_text", no_y_ticks = True, x_range = [2, 18],
 	y_range = [], offset = 0.4, color_f = [100/255, 143/255, 255/255], color_i = [220/255, 38/255, 127/255],
 	plot_upside_down = True, normalize = True, diffraction_wavelength = 0.31, min_shift = 0.3, max_shift = 0.2)
-plt.savefig("Data.png", dpi=400, transparent = True)
+plt.savefig("Data.png", dpi=400, transparent = False)
 plt.close()
